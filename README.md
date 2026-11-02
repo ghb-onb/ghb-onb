@@ -12,7 +12,7 @@
 
 | 项目 | 解决什么 | 主要技术 | 测试 |
 |:---|:---|:---|:---|
-| **[InsightAgent](https://github.com/ghb-onb/InsightAgent)** | 一句中文问题 → 可审计的 SQL → 图表 → 能贴进周报的结论 | pandas · matplotlib · Streamlit | 31 个 pytest |
+| **[InsightAgent](https://github.com/ghb-onb/InsightAgent)** | 一句中文问题 → 可审计的 SQL → 图表 → 能贴进周报的结论 | pandas · matplotlib · Streamlit | 44 个 pytest |
 | **[CodeFix-Agent](https://github.com/ghb-onb/CodeFix-Agent)** | 检测代码 Bug → 生成修复 → 沙箱跑测试证明真的改对了 | AST · subprocess 沙箱 | 11 个 pytest |
 | **[TestPilot](https://github.com/ghb-onb/TestPilot)** | 一句测试需求 → 六层流水线 → 可执行用例 + 失败归因 + 报告 | FastAPI · Playwright · OpenAI | 23 个 pytest |
 
