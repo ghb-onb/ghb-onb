@@ -37,15 +37,17 @@ TestPilot 目前也是纯规则 + Mock 执行——**LLM 和真实浏览器都�
 
 ## 还有
 
-**[hb-digital](https://ghb-onb.github.io/hb-digital/)** —— 我的主页。
+**[hb-digital](https://ghb-onb.github.io/hb-digital/)** —— 我的主页，也是我的技术作品集。
 
-GitHub Pages 只能托管静态文件，不能跑后端。我拿 Issues 当数据层、Issue Forms 当服务端校验、Actions 当计算层，在零服务器成本下做出了能收反馈、能管理、能统计的完整闭环。首页有「这个网站怎么跑起来的」板块，四层架构直接摆出来看。
+GitHub Pages 只能托管静态文件，不能跑后端。我拿 Issues 当数据层、Issue Forms 当服务端校验、Actions 当计算层，在零服务器成本下做出了能收反馈、能管理、能统计的完整闭环。架构取舍写在仓库的 README 里，网站本身只负责讲清楚「我是谁、会什么、做过什么」。
 
 技术上没什么高深的，但「在一堆限制下做取舍」这件事本身，是我最想聊的部分。
 
-**GTIT 企业官网维护** —— [my-website](https://github.com/ghb-onb/my-website)
+**GTIT 企业官网** —— [gtit.cc](https://gtit.cc) · [my-website](https://github.com/ghb-onb/my-website)
 
-企业项目，不是个人作品。基于既有官网架构做内容维护：新增博客文章详情页、完成正文排版与配图，同步更新博客列表页的展示和跳转链接。改的是内容和结构，不是从零搭站——企业站的约束比个人项目多，动一个列表项都得先对一遍现有样式规范。
+企业项目，不是个人作品。宁波一家齿轮减速机出口企业的英文站，站点共 14 个内容页面（9 个主页面 + 5 篇技术博客），线上在运营。
+
+我负责的是内容与模块增量：在既有模板上新增博客模块——列表页重排、5 篇技术文章详情页、导航与文章互链，沿用站点原有的 Bootstrap + GSAP 动效体系，不引入新框架。改的是内容和结构，不是从零搭站——企业站的约束比个人项目多，动一个列表项都得先对一遍现有样式规范。
 
 **其他动手做过的事**：Power BI 报表、Excel / Word 批量处理、Windows GUI 自动化（`ctypes` + `user32.dll`，没走 pywinauto）。
 
